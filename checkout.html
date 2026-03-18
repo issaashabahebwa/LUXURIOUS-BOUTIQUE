@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Checkout</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header>
+<h2 class="logo">LUXURIOUS <span>Boutique</span></h2>
+<nav>
+<a href="index.html">HOME</a>
+<a href="cart.html">CART</a>
+<a href="checkout.html">CHECKOUT</a>
+</nav>
+</header>
+
+<h1 style="text-align:center;">ENTER DETAILS TO PLACE ORDER</h1>
+
+<form id="checkout-form">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email" required>
+
+<input type="text" id="phone" placeholder="Phone Number" required>
+
+<textarea id="address" placeholder="Delivery Address" required></textarea>
+
+<button onclick="changeBackground()" type="submit">Place Order</button>
+
+</form>
+
+<p id="message"></p>
+
+<script src="JS/checkout.js"></script>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h3>Visit Us</h3>
+            <p>Second Floor Rm 201, Burton Street</p>
+            <p>Kampala, Uganda</p>
+            <p>Email: info@luxboutique.com</p>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Our Style</h3>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter/X</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">&copy; 2026 LUXURIOUS Boutique | Exclusive Designs</p>
+</footer>
+
+</body>
+</html>
